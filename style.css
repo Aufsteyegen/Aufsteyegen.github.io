@@ -14,6 +14,15 @@
 
 img {
     border-top: 1px solid #0066ff;
+    transition: transform 0.15s ease;
+}
+
+#body-segment-2-li {
+    margin-bottom: 0;
+}
+
+img:hover {
+    transform: scale(0.95);
 }
   
 .sidebar {
@@ -87,9 +96,11 @@ img {
 }
 
 .sidebar-list {
+    display: flex;
     list-style-type: none;
     padding: 0;
     font-size: 20px;
+    flex-wrap: wrap; 
     width: 100%;
 }
 
@@ -181,10 +192,23 @@ h1 {
     border-left: none;
 }
 
+.body-segment-2 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .body-segment-content {
     border-left: 1px solid #0066ff;
     padding-left: 5px;
-    max-width: 230px;
+    max-width: 250px;
+}
+
+.body-segment-content-1 {
+    border-left: 1px solid #0066ff;
+    padding-left: 5px;
+    max-width: 70%;
+    margin-bottom: 20px;
 }
 
 .tt-segment-content {
