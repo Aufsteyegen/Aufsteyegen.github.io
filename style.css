@@ -123,9 +123,18 @@ i:hover {
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     margin-top: 0px;
-    background-color: #cfcfcf;
+    background-color: #ffffff;
+    background-image: radial-gradient(#0066ff 0.75px, #f6f6f6 0.75px);
     background-size: 15px 15px;
     margin-bottom: 0px;
+}
+
+.body-segment-divider {
+    height: 1px;
+    border-bottom: 1px solid #0066ff;
+    width: 100%;
+    margin: 20px;
+    display: flex;
 }
 
 h1 {
@@ -180,18 +189,10 @@ h1 {
     border-left: none;
 }
 
-.body-segment-divider {
-    height: 1px;
-    border-bottom: 1px solid #0066ff;
-    width: 100%;
-    margin: 20px;
-    display: flex;
-}
-
 .body-segment-content {
     border-left: 1px solid #0066ff;
     padding-left: 5px;
-    
+    max-width: 230px;
 }
 
 .tt-segment-content {
