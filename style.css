@@ -14,15 +14,6 @@
 
 img {
     border-top: 1px solid #0066ff;
-    transition: transform 0.15s ease;
-}
-
-#body-segment-2-li {
-    margin-bottom: 0;
-}
-
-img:hover {
-    transform: scale(0.95);
 }
   
 .sidebar {
@@ -96,11 +87,9 @@ img:hover {
 }
 
 .sidebar-list {
-    display: flex;
     list-style-type: none;
     padding: 0;
     font-size: 20px;
-    flex-wrap: wrap; 
     width: 100%;
 }
 
@@ -134,8 +123,7 @@ i:hover {
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     margin-top: 0px;
-    background-color: #ffffff;
-    background-image: radial-gradient(#0066ff 0.75px, #f6f6f6 0.75px);
+    background-color: #cfcfcf;
     background-size: 15px 15px;
     margin-bottom: 0px;
 }
@@ -192,24 +180,18 @@ h1 {
     border-left: none;
 }
 
-.body-segment-2 li {
+.body-segment-divider {
+    height: 1px;
+    border-bottom: 1px solid #0066ff;
+    width: 100%;
+    margin: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .body-segment-content {
     border-left: 1px solid #0066ff;
     padding-left: 5px;
-    max-width: 250px;
-}
-
-.body-segment-content-1 {
-    border-left: 1px solid #0066ff;
-    padding-left: 5px;
-    min-width: 50%;
-    max-width: 100%;
-    margin-bottom: 20px;
+    
 }
 
 .tt-segment-content {
