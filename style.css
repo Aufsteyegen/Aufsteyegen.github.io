@@ -234,6 +234,11 @@ h2, h3 {
     height: 400px;
 }
 
+.col-description {
+    width: 400px;
+    margin-top: 15px;
+}
+
 .body-col-content {
     display: flex;
     justify-content: space-between;
