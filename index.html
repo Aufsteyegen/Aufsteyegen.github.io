@@ -5,100 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gregory's Website</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
     </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/72081590a1.js" crossorigin="anonymous"></script>
     <link href="./style.css" rel="stylesheet">
 </head>
 <body>
     <div class="container-outer">
-        <div class="container-inner">
-        <div class="sidebar">
-            <div id="photo"></div>
-            <div id="hello-message"><h3>Hello. I'm</h3></div>
-            <div id="name"><h1>Gregory Caesar</h1></div>
-            <div class="horizontal-line"></div>
-            <div><h3>Third-year undergraduate majoring in computer science and data science</h3></div>
-            <div class="sidebar-list">
-                <li title="Academic-year residence: Chicago, IL; Permanent residence: Westchester, NY"><div class="list-icon"><i class="fa-solid fa-location-dot"></i>
-                    </div><div>Chicago, IL<br>Westchester, NY</div>
-                </li>
-                <li><div class="list-icon">></div>
-                    <div>University of Chicago,<br>Class of 2025</div>
-                </li>
-                <li>
-                    <div class="list-icon">></div>
-                    <div id="email"><a href="mailto:gregmcaesar@gmail.com">gregmcaesar@gmail.com</a></div>
-                </li>
-                <div class="horizontal-line"></div>
-                <div class="links">
-                <li title="My Github (@Aufsteyegen)">
-                    <div class="links-item"><a href="https://github.com/Aufsteyegen"><i class="fa-brands fa-github fa-xl"></i></a></div>
-                </li>
-                <li title="My LinkedIn">
-                    <div class="links-item"><a href="https://www.linkedin.com/in/gregory-caesar-75586b211/"><i class="fa-brands fa-linkedin-in fa-xl"></i></a></div>
-                </li>
-                <li title="My Twitter (@Aufsteyegen)">
-                    <div class="links-item"><a href="https://twitter.com/Aufsteyegen"><i class="fa-brands fa-twitter fa-xl"></i></a></div>
-                </li>
-                
+        <div class="container-inner-1">
+            <div class="sidebar">
+                <div id="photo"></div>
+                <div id="hello-message"><h3>Hello, I'm</h3></div>
+                <div id="name"><h1>Gregory Caesar</h1>
+
                 </div>
-                <div id="last-updated">Site last updated: 8/7/23</div>
+                <div class="horizontal-line"></div>
+                <div><h3>Third-year undergraduate majoring in computer science and data science</h3></div>
+                <div class="sidebar-list">
+                    <li title="Academic-year residence: Chicago, IL; Permanent residence: Westchester, NY"><div class="list-icon"><i class="fa-solid fa-location-dot"></i>
+                        </div><div>Chicago, IL<br>Westchester, NY</div>
+                    </li>
+                    <li><div class="list-icon"><i class='bx bxs-graduation'></i></div>
+                        <div>University of Chicago,<br>Class of 2025</div>
+                    </li>
+                    <li>
+                        <div class="list-icon"><i class='bx bxs-envelope' ></i></div>
+                        <div id="email"><a href="mailto:gregmcaesar@gmail.com">gregmcaesar@gmail.com</a></div>
+                    </li>
+                    <div class="horizontal-line"></div>
+                    <div class="links">
+                    <li title="My Github (@Aufsteyegen)">
+                        <div class="links-item"><a href="https://github.com/Aufsteyegen"><i class="fa-brands fa-github fa-xl"></i></a></div>
+                    </li>
+                    <li title="My LinkedIn">
+                        <div class="links-item"><a href="https://www.linkedin.com/in/gregory-caesar-75586b211/"><i class="fa-brands fa-linkedin-in fa-xl"></i></a></div>
+                    </li>
+                    <li title="My Twitter (@Aufsteyegen)">
+                        <div class="links-item"><a href="https://twitter.com/Aufsteyegen"><i class="fa-brands fa-twitter fa-xl"></i></a></div>
+                    </li>
+                    
+                    </div>
+                    <div id="last-updated">Site last updated: 8/26/23</div>
+                </div>
+            </div>
+            <div class="body">
+                <div>
+                    <h2>About me</h2>
+                    <div class="horizontal-line-small"></div>
+                    <p>Hi there! I'm Greg, and I'm a full-stack developer.</p>
+                    <p>My skillset:</p>
+                    <div class="body-segment">
+                        <li><div id="languages"><b>Languages</b><div class="horizontal-line-small"></div></div><div>Python, C, JavaScript, Flutter</div></li>
+                        <li><div id="other-knowledge"><b>Other knowledge</b><div class="horizontal-line-small"></div></div><div>Python ML libraries (e.g., scikit-learn), AWS Lambda/Lightsail/RDS, Django, PostgreSQL, Express/Node, React, Pandas, NumPy, Git, SQL</div></li>
+                    </div>  
+                    <p>I'm experienced with Python, C, and JavaScript, and have worked with various front-end and back-end tech. <br/><br/>I've also worked with machine learning and data visualization libraries as part of my DS major, specifically with NumPy and Pandas.<br><br>
+                        While my focus has been web- and desktop-app-based development, I've also developed mobile Flutter applications. </p>
+                </div>
             </div>
         </div>
-        <div class="body">
-            <div>
-                <h2>About me</h2>
-                <div class="horizontal-line-small"></div>
-                <p>Hi there! I'm Greg, and I'm a full-stack developer.</p>
-                <p>My skillset:</p>
-                <div class="body-segment">
-                    <li><div id="languages"><b>Languages</b><div class="horizontal-line-small"></div></div><div>Python, C, JavaScript, Flutter</div></li>
-                    <li><div id="other-knowledge"><b>Other knowledge</b><div class="horizontal-line-small"></div></div><div>Python ML libraries (e.g., scikit-learn), AWS Amplify/Lightsail/RDS, Django, PostgreSQL, Express/Node, React, Pandas, NumPy, Git, SQL</div></li>
-                </div>  
-                <p>I'm experienced with Python, C, and JavaScript, and have worked with various front-end and back-end tech. I've also worked with machine learning and data visualization libraries as part of my DS major, specifically with NumPy and Pandas.<br><br>
-                    While my focus has been web- and desktop-app-based development, I've also developed mobile Flutter applications. </p>
-            </div>
-        </div>
-        </div>
-        <div class="container-inner">
+        <div class="container-inner-2">
             <div class="projects">
                 <h2>Projects and activities</h2>
                 <div class="horizontal-line-small"></div>
-                <div class="body-segment-2">
-                    <li><div id="tech-team-img"><a href="https://www.uchicagotechteam.com/"><img width="400" src="./TechTeam900.png"></a>
+                <div class="description">Hover over a card to view its description.</div>
+            </div>
+                <div>
+                <div class="body-container-wrapper">
+
+                    <div class="body-container-2">
+                        <div class="image-overlay-4">
                         </div>
-                        <div class="tt-segment-content">Recently, I helped create a carbon footprint tracker for a non-profit organization with TechTeam, a student-run civic engagement project (part of UChicago's Institute of Politics). <br><br>I also helped migrate a non-profit's website from PHP to a Svelte-based framework.
-                         As part of this, my team designed a backend system using the Auth0 API to manage user data and loyalty program points.</div>
-                    </li>
+                        <div class="body-content-2">
+                            I've been a developer for UChicago TechTeam since September 2022, a student-run civic engagement project (part of UChicago's Institute of Politics). <a href="https://www.uchicagotechteam.com/">Learn more</a>
+                            <br/><br/>
+                            Past projects include:<br/><br/>
+                            
+                            <li>
+                              Migrating a non-profit's website from PHP to Svelte to improve website performance,
+                              accessibility, and customizability, as well as devising new loyalty program points program.
+                            </li>
+                            <li>
+                              A Flutter-based app that calculates carbon footprints. Allows users to calculate carbon emissions, set carbon reduction goals, and visualize carbon emission statistics to
+                              educate them about sustainable habits.
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="body-container-2">
+                        <div class="image-overlay-1">
+                         
+                        </div>
+                        <div class="body-content-2">
+                        In September, I'll be attending HackMIT 2023, one of the largest undergraduate hackathons in the world.
+                        <a href="https://hackmit.org/#about">Learn more</a>
+                        </div>
+                    </div>
+
+                    <div class="body-container-2">
+                        <div class="image-overlay-3">
+                         
+                        </div>
+                        <div class="body-content-2">
+                            Currently, I'm a part-time TA for CodePath’s advanced web development course (WEB 103).
+                            <br/><br/>
+                            I teach students about various aspects of web development, including React fundamentals, authentication, RESTful
+                            API requests, SQL, and GitHub project management.
+                        </div>
+                    </div>
+
+                    <div class="body-container-2">
+                        <div class="image-overlay-2">
+                         
+                        </div>
+                        <div class="body-content-2">
+                            A React/Django-based flight logging tool to track live flights, log past flights, and see flight route statistics—all in one place.
+                            <a href="https://github.com/Aufsteyegen/py_flight_tracker"> View on GitHub</a>
+                            <br/><br/>
+                            Uses: AWS S3/Lightsail/RDS, PostgreSQL, Django, React, Auth0, MapboxGL
+                        </div>
+                    </div>
+
+                    <div class="body-container-2">
+                        <div class="image-overlay-5">
+                        </div>
+                        <div class="body-content-2">
+                            An interactive geography game for learning country geographies and flags! 
+                            Features 3D models of 193 countries created using Blender and the GLTFJSX and React Three Drei APIs. <a href="https://github.com/Aufsteyegen/193-game">View on GitHub</a>
+                            <br/><br/>
+                            Uses: AWS Lambda, PostgreSQL, Node.js, Express, React, React Three Fiber, CSS/HTML
+                            <a href="https://github.com/Aufsteyegen/193-game">View on GitHub</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="projects-container">
-                    
-                    <div>
-                    <div class="body-col-content">
-                        <div class="body-segment-img"><a href="https://github.com/Aufsteyegen/py_flight_tracker"><img id="sky-journal-thumbnail" src="./sky-journal.png"></a></div>
-                        <div class="body-segment-content">A React/Django-based flight logging tool to track live flights, log past flights, and see flight route statistics—all in one place.</div>
-                    </div>
-                        <div class="col-description">
-                            Uses: AWS Amplify/Lightsail/ RDS, PostgreSQL,Django, React, Auth0, MapboxGL
-                        </div>
-                    </div>
-                    <div>
-                        <div class="body-col-content">
-                            <div class="body-segment-img"><a href="https://github.com/Aufsteyegen/193-game"><img id="193-thumbnail" src="./193-thumbnail.png"></a></div>
-                            <div class="body-segment-content">An interactive game for learning country geographies and flags.
-                                                              Features 3D models of 193 countries created using Blender, GLTFJSX, and React Three Drei.</div>
-                        </div>
-                        <div class="col-description">
-                            Uses: PostgreSQL, Node, Express, React, ReactThreeFiber, CSS/HTML
-                        </div>
-                    </div>  
-                </div>       
             </div>
         </div>
-    </div>
-    
-</div>
-    
+    </div>    
 </body>
 </html>
