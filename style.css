@@ -152,7 +152,7 @@ h1 {
 }
 
 .horizontal-line-small {
-    border-top: 1px solid #0066ff;
+    border-top: 1px solid white;
     margin-bottom: 20px;
     width: 40px;
 }
@@ -167,7 +167,8 @@ h1 {
 }
 
 a {
-    color: rgb(40, 119, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 a:hover {
@@ -199,22 +200,40 @@ a:hover {
     overflow: scroll;
 }
 
+.experience-column {
+    width: 50%;
+    background: #2475ed;
+    overflow: scroll;
+}
+
+.project-column {
+    width: 50%;
+    background: #063c8c;
+    overflow: scroll;
+}
+
+.experience-header {
+    background-color: #000000;
+    padding: 15px;
+    color: white;
+}
+
+.projects-header {
+    background-color: #000000;
+    padding: 15px;
+    color: white;
+}
+
 .body-container-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    height: 47vw;
 }
 
 .body-content-2 {
     padding: 15px;
     color: white;
-    background: rgba(0, 0, 0, 0.809);
-    opacity: 0%;
     overflow: scroll;
-}
-
-.body-content-2:hover {
-    opacity: 100%;
 }
 
 .body-container-1 {
@@ -227,79 +246,13 @@ a:hover {
     border-radius: 15px;
 }
 
+
 .body-container-2 {
-    position: relative;
-    min-width: 150px;
-    height: 300px;
-    margin: 15px;
+    height: fit-content;
     overflow: scroll;
-    max-width: 300px;
     display: flex;
-    border-radius: 15px;
-    border: 1px solid #0066ff;
-}
-
-.image-overlay-1 {
-    position: absolute;
     width: 100%;
-    height: 100%;
-    background-image: url('./Screenshot 2023-08-25 at 07.47.46.png');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
-    z-index: -1;
-}
-
-.image-overlay-2 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url('./sky-journal.png');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
-    z-index: -1;
-}
-
-.image-overlay-3 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url('./cpath.png');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
-    z-index: -1;
-}
-
-.image-overlay-4 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: white;
-    background-image: url('./TechTeam900.png');
-    background-size: 30%;
-    background-position: center;
-    opacity: 0.9;
-    z-index: -1;
-}
-
-.image-overlay-5 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url('./Screenshot 2023-08-26 at 14.19.49.png');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
-    z-index: -1;
-}
-  
-#tech-team-img img {
-    width: 100%; 
-    height: auto;  
-    object-fit: cover; 
-    overflow: hidden; 
+    border-top: 2px solid #000000e2;
 }
 
 h2, h3 {
